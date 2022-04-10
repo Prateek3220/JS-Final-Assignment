@@ -10,7 +10,6 @@ html{
 #header{
 
     box-shadow: 0px 1px 5px grey;
-
 }
 main{
     margin-top:6rem;
@@ -131,8 +130,6 @@ a{
     border-radius: none;
 }
 /* Main View CSS End */
-
-
 /* Detail View CSS Start */
 #main-detail-container{
     display: grid;
@@ -156,7 +153,6 @@ a{
     padding: 20px;
     box-sizing: border-box;
 }
-
 .previewImage{
     display: flex;
     justify-content: left;
@@ -191,7 +187,6 @@ font-size: 16px;
 font-weight: 300;
 color: #86939e;
 }
-
 #product-detail-wrapper h3{
     margin-top: 20px;
 font-weight: 200;
@@ -206,7 +201,6 @@ color: rgb(27, 25, 25);
 .active{
     border: 2px solid #009688;
 }
-
 @media (max-width:500px) {
     #main-container{
         grid-template-columns: 100%;
@@ -263,7 +257,6 @@ color: rgb(27, 25, 25);
     padding: 0px 1rem;
     width: 100px;
 }
-
 #profile-pic{
     height: 40px;
     width: 40px;
@@ -297,10 +290,7 @@ small{
     color: green;
 }
 /* Order CSS End */
-
 /* image slider start here */
-
-
 .slider{
     margin-top: 50px !important;
     padding-top: 20px;
@@ -310,29 +300,23 @@ small{
     border-radius: 10px;
     overflow: hidden;
   }
-  
   .slides{
     width: 500%;
     /* height: 500px; */
     display: flex;
   }
-  
   .slides input{
     display: none;
   }
-  
   .slide{
     width: 20%;
     transition: 0.5s;
   }
-  
   .slide img{
     width: 100%;
     /* height: 500px; */
   }
-  
   /*css for manual slide navigation*/
-  
   .navigation-manual{
     position: absolute;
     width: 100%;
@@ -341,7 +325,6 @@ small{
     justify-content: center;
     display: none;
   }
-  
   .manual-btn{
     border: 2px solid gray;
     padding: 5px;
@@ -350,33 +333,25 @@ small{
     transition: 0.5s;
     opacity: 0.1;
   }
-  
   .manual-btn:not(:last-child){
     margin-right: 40px;
   }
-  
   .manual-btn:hover{
     background: gray;
   }
-  
   #radio1:checked ~ .first{
     margin-left: 0;
   }
-  
   #radio2:checked ~ .first{
     margin-left: -20%;
   }
-  
   #radio3:checked ~ .first{
     margin-left: -40%;
   }
-  
   #radio4:checked ~ .first{
     margin-left: -60%;
   }
-  
   /*css for automatic navigation*/
-  
   .navigation-auto{
     position: absolute;
     display: flex;
@@ -385,7 +360,6 @@ small{
     margin-top: 23vw;
     left: 20px;
   }
-  
   .navigation-auto div{
     border: 2px solid gray;
     padding: 5px;
@@ -395,25 +369,19 @@ small{
     font-size: 30px;
     cursor: pointer;
   }
-  
   .navigation-auto div:not(:last-child){
     margin-right: 40px;
   }
-  
   #radio1:checked ~ .navigation-auto .auto-btn1{
     background: gray;
     color: blue;
-    
   }
-  
   #radio2:checked ~ .navigation-auto .auto-btn2{
     background: gray;
   }
-  
   #radio3:checked ~ .navigation-auto .auto-btn3{
     background: gray;
   }
-  
   #radio4:checked ~ .navigation-auto .auto-btn4{
     background: gray;
   }
@@ -424,13 +392,9 @@ small{
     .navigation-auto div{
         height: -2px;
     }
-
-
-
 /* image slider end here */
 
 /* FOOTER STARTS HERE */
-
 footer{
     display: flex;
     justify-content: space-around;
@@ -438,7 +402,7 @@ footer{
     background-color: black;
     padding-bottom: 20px;
     padding: 30px;
-    margin-top: 3rem    ;
+    margin-top: 3rem;
 }
 footer p{
     font-size: 12px;
@@ -449,8 +413,7 @@ footer h4{
     color: #dcdcdc;
    
     margin-bottom: 10px;
-}
-
+} 
 /* style for product page */
 button{
     font-size: 16px;
